@@ -11,5 +11,6 @@ groceries = {
 def get_the_keys(groceries)
   #code your solution here!
   groceries.keys
-  groceries.values = []
+  new_array = [groceries.values]
+  new_array
 end
