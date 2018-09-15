@@ -11,6 +11,9 @@ groceries = {
 def get_the_keys(groceries)
   #code your solution here!
   groceries.keys
-  new_array = [groceries.values]
+  new_array = []
+  groceries.each do |key, values|
+    new_array << values
+  end
   new_array
 end
