@@ -16,5 +16,5 @@ def get_the_values(groceries)
   # end
   # new_array.flatten
   # binding.pry
-  groceries.values
+  groceries.values.flatten
 end
