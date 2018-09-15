@@ -10,7 +10,7 @@ groceries = {
 
 def get_the_keys(groceries)
   #code your solution here!
-  groceries.keys
+  # groceries.keys
   new_array = []
   groceries.each do |key, values|
     new_array << values
