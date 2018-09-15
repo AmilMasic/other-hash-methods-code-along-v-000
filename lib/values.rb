@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   new_array = []
   groceries.collect do |key, values|
-    values
+    values.flatten
   end
   # new_array.flatten
   # binding.pry
