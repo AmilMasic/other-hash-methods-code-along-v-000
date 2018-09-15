@@ -10,6 +10,7 @@ groceries = {
 
 def get_the_keys(groceries)
   #code your solution here!
-  groceries.keys.flatten
+  new_array << groceries.values
+  new_array
 
 end
