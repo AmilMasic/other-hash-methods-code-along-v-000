@@ -14,6 +14,6 @@ def get_the_values(groceries)
   groceries.collect do |key, values|
     new_array << values
   end
-  new_array
+  new_array.flatten
   binding.pry
 end
